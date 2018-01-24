@@ -4,10 +4,12 @@ import java.time.LocalDate;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity
 public class Paciente {
 
+	@Id
 	@Column(name="ID")
 	private Long id;
 	
